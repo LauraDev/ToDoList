@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        title Ma Todolist
+        script(type='text/javascript').
+        //- if (foo) bar(1 + 5)
+    body
+        h1 Ma Todolist
+
+        p Que dois-je faire ?
+        form(action="./../newTodo", method="post")
+            input#todo(type="text", name="todo")
+            button.btn.btn-primary(type='submit') Valider
+        //- #container.col
+        //- if youAreUsingPug
+        //-     p You are amazing
+        //- else
+        //-     p Get on it!
+        //- p.
+        //-     Pug is a terse and simple templating language with a
+        //-     strong focus on performance and powerful features.
